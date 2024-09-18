@@ -1,0 +1,112 @@
+export const columns = [
+    {
+        Header:'Id',
+        accessor:'id',
+
+    },
+    {
+        Header:'First_name',
+        accessor:'first_name',
+    },
+    {
+        Header:'Last_name',
+        accessor:'last_name',
+    },
+    {
+        Header:'Email',
+        accessor:'email',
+    },
+    {
+        Header:'Gender',
+        accessor:'gender'
+    },
+    {
+        Header:'Date',
+        accessor:'Date'
+    },
+]
+export const footerColumns = [
+    {
+        Header:'Id',
+        footer:'Id',
+        accessor:'id',
+
+    },
+    {
+        Header:'First_name',
+        footer:'First_name',
+        accessor:'first_name',
+    },
+    {
+        Header:'Last_name',
+        footer:'Last_name',
+        accessor:'last_name',
+    },
+    {
+        Header:'Email',
+        footer:'Email',
+        accessor:'email',
+    },
+    {
+        Header:'Gender',
+        footer:'Gender',
+        accessor:'gender'
+    },
+    {
+        Header:'Date',
+        footer:'Date',
+        accessor:'Date'
+    },
+]
+
+export const Group_columns = [
+    {
+        footer:'Id',
+        Header:'Id',
+        columns:[
+            {
+                Header:'Id',
+                footer:'Id',
+                accessor:'id',
+        
+            },
+        ],
+    },
+    {
+        footer:'Name',
+        Header:'Name',
+        columns:[
+            {
+                Header:'First_name',
+                footer:'First_name',
+                accessor:'first_name',
+            },
+            {
+                Header:'Last_name',
+                footer:'Last_name',
+                accessor:'last_name',
+            },
+        ],
+    },
+    {
+        footer:'Info',
+        Header:'Info',
+        columns:[
+            {
+                Header:'Email',
+                footer:'Email',
+                accessor:'email',
+            },
+            {
+                Header:'Gender',
+                footer:'Gender',
+                accessor:'gender'
+            },
+            {
+                Header:'Date',
+                footer:'Date',
+                accessor:'Date'
+            },
+        ],
+    },
+]
